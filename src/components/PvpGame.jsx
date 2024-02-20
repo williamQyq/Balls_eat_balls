@@ -98,7 +98,7 @@ class PvPGame extends Component {
       const dy = newPlayerPosition.y - food.y;
       const distance = Math.sqrt(dx * dx + dy * dy);
   
-      if (distance < playerSize / 2 + 10) { // 假设食物大小为20px，半径为10
+      if (distance < playerSize / 2 + 10) { 
         collided = true;
         return false;
       }

@@ -124,13 +124,13 @@ class PvEGame extends Component {
       const distance = Math.sqrt(dx * dx + dy * dy);
 
       if (distance < colliderSize / 2 + 10) {
-        newSize = newSize * 0.9; // 减小10%
+        newSize = newSize * 0.9; // reduce by 10%
         return false;
       }
       return true;
     });
 
-    if (newSize !== colliderSize) { // 仅在大小发生变化时更新状态
+    if (newSize !== colliderSize) { // Only update status when size changes
       this.setState({ [sizeKey]: newSize, poisons: newPoisons });
     }
   };
