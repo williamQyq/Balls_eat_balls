@@ -43,7 +43,7 @@ This code renders a small black circle representing poison on the screen. It tak
 Using absolute positioning, it places the poison circle at the specified coordinates. The circle's size is determined by the size prop, with a default of 10 pixels. Styled with a black background color and a border radius of 50% for a circular appearance, it's centered at the specified position using CSS transformation.
 
 #### ScoreBoard
-The ScoreBoard component renders a fixed-positioned <div> at the top center of the screen, displaying scores and labels for two players. It includes styling for a light gray background, padding, width, margin, border radius, and box shadow for a pleasant appearance. Inside the <div>, an <h3> element shows the scores and labels of the players, separated by dashes.
+The ScoreBoard component displays a scoreboard at the top center of the screen in a fixed position. It showcases the scores and names of two players, styled with a light gray background, padding, a set width, margin, border radius, and box shadow for an attractive look. The scores and player labels are presented inside the component, with an emphasis on clarity, separated by dashes for easy reading.
 
 #### Monster
 Chasing Logic: Upon mounting, the Monster starts chasing the player by calculating the direction towards the player's position and moving towards it.
