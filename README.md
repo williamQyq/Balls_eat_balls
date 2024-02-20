@@ -22,6 +22,9 @@ Part 1 is in the document [balls_eat_balls.pdf](https://github.com/Piers-W/Balls
     ```
 5. Navigate to the webpage http://localhost:5173/
 
+## Demo video
+[link](https://youtu.be/l1iBOLPZsI4)
+
 ## Introduction
 
 "Balls Eat Balls" is a web-based mini-game developed using React. Its basic rules involve players controlling a small ball to eat food and grow larger, ultimately aiming to devour larger opponent balls to achieve victory.
