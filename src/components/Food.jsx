@@ -4,6 +4,7 @@ class Food extends Component {
   render() {
     const { position } = this.props; 
     return (
+      position &&(
       <div
         style={{
           position: 'absolute',
@@ -15,7 +16,7 @@ class Food extends Component {
           top: `${position.y}px`,
           transform: 'translate(-50%, -50%)',
         }}
-      />
+      />)
     );
   }
 }
